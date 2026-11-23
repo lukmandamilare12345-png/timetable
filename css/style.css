@@ -1,0 +1,39 @@
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; margin: 0; background: #e6e6e6; color: #000; }
+
+.banner { background: #003366; color: #fff; text-align: center; padding: 14px; }
+.banner h1 { margin: 0; font-size: 22px; border: 0; color: #fff; padding: 0; }
+.banner p { margin: 4px 0 0; font-size: 13px; }
+
+nav { background: #0066aa; }
+nav a { color: #fff; display: inline-block; padding: 10px 14px; text-decoration: none; border-right: 1px solid #004477; }
+nav a:hover { background: #ff9900; color: #000; }
+
+main { width: 90%; max-width: 1000px; margin: 15px auto; background: #fff; padding: 15px; border: 1px solid #999; }
+main h1 { font-size: 20px; color: #003366; border-bottom: 2px solid #003366; padding-bottom: 5px; }
+
+.cards { display: flex; flex-wrap: wrap; gap: 10px; }
+.card { flex: 1; min-width: 140px; padding: 15px; text-align: center; color: #fff; }
+.card:nth-child(1) { background: #2e8b57; }
+.card:nth-child(2) { background: #cc6600; }
+.card:nth-child(3) { background: #8b2e8b; }
+.card:nth-child(4) { background: #1a5fb4; }
+.card h2 { margin: 0; font-size: 32px; }
+.card p { margin: 5px 0 0; }
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #666; padding: 6px; text-align: left; vertical-align: top; }
+th { background: #003366; color: #fff; }
+tr:nth-child(even) { background: #f2f2f2; }
+
+input, select { padding: 5px; border: 1px solid #666; margin: 2px; }
+button, .btn { background: #003366; color: #fff; border: 1px solid #001a33; padding: 6px 12px; cursor: pointer; text-decoration: none; font-size: 13px; display: inline-block; }
+button:hover, .btn:hover { background: #ff9900; color: #000; }
+.danger { background: #cc0000; border-color: #800000; }
+td form { display: inline; }
+
+.slot { padding: 4px; margin-bottom: 3px; font-size: 12px; border: 1px solid #999; }
+.filters select { margin-right: 5px; }
+.legend span { display: inline-block; padding: 2px 8px; margin: 0 5px 5px 0; border: 1px solid #999; font-size: 12px; }
+
+footer { text-align: center; font-size: 12px; padding: 10px; color: #333; }
+@media print { nav, .filters, .noprint, footer { display: none; } }
